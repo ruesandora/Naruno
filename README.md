@@ -39,7 +39,7 @@ pip3 install naruno
 // Incentive almak için wallet 1 cüzdana geçmek gerekli aşağıdaki komudu girin
 
 
-narunocli --createwallet ruesnaruno
+narunocli --createwallet sifre
 
 narunocli --wallet 1
 
