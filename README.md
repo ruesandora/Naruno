@@ -108,6 +108,8 @@ aps --password <ruesSifre> --port 4569 ping c923c646f2d73fcb8f626afacb1a0ade8d98
 
 <h1 align="center"> Konu dışı </h1>
 
+> Sağ üstten yıldızlamayı ve forklamayı unutmayın profilinzde bulunsun. Eksikler için PR atabilirsiniz.
+
 > 3- Küçük bilgiler ✍🏻: bazı örneklerde gösterdiğim küçükBüyük yazım sitiline camelCase deriz, birleşik yazılan kodda araya _ koymak yerine camelCase kullanmak daha hoş bence.
 
 > Ayrıca yıl sonuna doğru eğer yapabilirsem Java veya Python öğretmeye başlayacağım, o zamana kadar `küçük bilgiler` ile aşinalığınız arttırmaya çalışırım.
