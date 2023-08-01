@@ -4,7 +4,7 @@
 
 > Teşvikli evet, 1000 kişi ile sınırlı, ne kadar süreceği hakkında bilgim yok tahmınım kısa.
 
-> Topluluk kanalları: `Genellikle burada çok aktifim`, [Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat) - [Naruno Discord](https://discord.gg/YR2DYn72)
+> Topluluk kanalları:[Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat) - [Naruno Discord](https://discord.gg/YR2DYn72)
 
 
 <h1 align="center"> Gereksinimler </h1>
