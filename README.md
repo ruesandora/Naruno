@@ -79,7 +79,10 @@ narunocli -bon
 #  Bu komutta, <ruesSifre> yazan yere daha önce belirlediğiniz şifreyi yazın.
 #  1984 portunu başka nodeda kullanıyorsanız kendiniz belirleyebilirsiniz.
 
-aps --password <ruesSifre> --port 1984 ping c923c646f2d73fcb8f626afacb1a0ade8d98954a
+aps --password <ruesSifre> --port 1984 --host "localhost" ping c923c646f2d73fcb8f626afacb1a0ade8d98954a
+
+# Eğer "OSError: [Errno 99] Connot assign requested address" hatası alırsanız --host "0.0.0.0" veya bir başka uygun ip alanı tanımlayabilirsiniz.
+
 ```
 
 > Bu komuttan sonra `4-5` dakika log akacak ve loglar kesilip `True` çıktısı verecek.
