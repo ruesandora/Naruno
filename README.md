@@ -14,7 +14,7 @@
 ```sh
 1 CPU
 1 RAM
-500 MB (not, SSD değil)
+500 MB (not, GB değil)
 Ubuntu 20.04 veya üstü.
 ```
 
