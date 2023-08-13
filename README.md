@@ -1,5 +1,9 @@
 <h1 align="center"> Naruno </h1>
 
+
+https://github.com/ruesandora/Naruno/assets/101149671/820bbecd-ed1b-4df5-9dc5-0d838482308b
+
+
 > Neden kuruyorum? Donanımı neredeyse hiç yok deneliecek kadar az, sunucu almadım bir node'un yanına kurdum.
 
 > Teşvikli evet, 1000 kişi ile sınırlı, ne kadar süreceği hakkında bilgim yok tahmınım kısa.
@@ -45,6 +49,10 @@ pip3 install naruno
 narunocli --createwallet <ruesSifre>
 
 # Incentive almak için wallet 1 cüzdana geçmek gerekli
+
+https://github.com/ruesandora/Naruno/assets/101149671/89c61d10-c326-43c9-a168-35636ba4d95b
+
+
 narunocli --wallet 1
 
 ## Çıkan 2 cüzdanlı çıktıyı kaydedin.
@@ -60,11 +68,11 @@ narunocli --printwallet
 
 > Tokenleri görmek için: `narunocli -gb` komutunu giriyoruz ve çıktıda `1002` veya `1004` gibi bir sayı yazar.
 
-<h1 align="center"> Ping system'i kurma ve Node'u başlatma </h1>
+<h1 align="center"> Web3 App'ı kurma ve Node'u başlatma (Hali Hazırda Kaydolmuş Kullanıcılar Buradan Devam Edebilirler)</h1>
 
 ```
 ## ping atalım
-pip3 install address_ping_system
+pip3 install web3_app
 
 # Baklava modunu açmamız gerekli aşağıdaki komudu girin
 narunocli -bon
@@ -79,7 +87,10 @@ narunocli -bon
 #  Bu komutta, <ruesSifre> yazan yere daha önce belirlediğiniz şifreyi yazın.
 #  1984 portunu başka nodeda kullanıyorsanız kendiniz belirleyebilirsiniz.
 
-aps --password <ruesSifre> --port 1984 --host "localhost" ping c923c646f2d73fcb8f626afacb1a0ade8d98954a
+web3 set_pass <ruesSifre>
+
+# Bu komutta <BirKullanıcıAdı> yazan yere boşluk bırakmadan kendi kullanıcı adınızı yazın
+web3 --port 1984 --host "localhost" username <BirKullanıcıAdı>
 
 # Eğer "OSError: [Errno 99] Connot assign requested address" hatası alırsanız --host "0.0.0.0" veya bir başka uygun ip alanı tanımlayabilirsiniz.
 
@@ -89,6 +100,13 @@ aps --password <ruesSifre> --port 1984 --host "localhost" ping c923c646f2d73fcb8
 
 ![image](https://github.com/ruesandora/Naruno/assets/101149671/be63d1d7-9ca3-41f7-bd24-238b8a4849bc)
 
+<h1 align="center"> Günlük Ödül Alma </h1>
+
+Naruno testnetinde her gün 100 karaktere kadar içerik paylaşabiliyorsunuz ve içerik [şu](http://web3.test_net.1.naruno.org:2000/) adreste yayınlanıyor
+
+# <İçerik> yazan yere "" tırnakların arasında olacak şekilde 100 karakteri geçmeyecek birşeyler yazabilirsiniz. Sakıncalı gönderimleri banlıyorlar.
+
+web3 --port 1984 --host "localhost" post <İçerik>
 
 > 2- Küçük bilgiler ✍🏻: VPS içinde çalışan portlara bakmak için: `lsof -i -P -n | grep LISTEN`
 
@@ -120,3 +138,4 @@ aps --password <ruesSifre> --port 4569 ping c923c646f2d73fcb8f626afacb1a0ade8d98
 > Naruno zaten hiç alan kaplamadığı için gittiği kadar çalıştırırım node'u.
 
 > Topluluk kanalları: `Genellikle burada çok aktifim`, [Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat) - [Naruno Discord](https://discord.gg/YR2DYn72)
+
