@@ -71,7 +71,7 @@ narunocli --printwallet
 <h1 align="center"> Web3 App'ı kurma ve Node'u başlatma (Hali Hazırda Kaydolmuş Kullanıcılar Buradan Devam Edebilirler)</h1>
 
 ```
-## ping atalım
+## indirelim
 pip3 install web3_app
 
 # Baklava modunu açmamız gerekli aşağıdaki komudu girin
@@ -104,10 +104,10 @@ web3 --port 1984 --host "localhost" username <BirKullanıcıAdı>
 
 Naruno testnetinde her gün 100 karaktere kadar içerik paylaşabiliyorsunuz ve içerik [şu](http://web3.test_net.1.naruno.org:2000/) adreste yayınlanıyor
 
-# <İçerik> yazan yere "" tırnakların arasında olacak şekilde 100 karakteri geçmeyecek birşeyler yazabilirsiniz. Sakıncalı gönderimleri banlıyorlar.
-
+<İçerik> yazan yere "" tırnakların arasında olacak şekilde 100 karakteri geçmeyecek birşeyler yazabilirsiniz. Sakıncalı gönderimleri banlıyorlar.
+```
 web3 --port 1984 --host "localhost" post <İçerik>
-
+```
 > 2- Küçük bilgiler ✍🏻: VPS içinde çalışan portlara bakmak için: `lsof -i -P -n | grep LISTEN`
 
 > Explorer üstünde istediğiniz işlemi görüntülemek için [buradan](http://scan.test_net.1.naruno.org/).
@@ -123,8 +123,7 @@ narunocli -bon
 
 > Nodu silmek için 
 ```
-pip3 uninstall naruno address_ping_system -y
-aps --password <ruesSifre> --port 4569 ping c923c646f2d73fcb8f626afacb1a0ade8d98954a
+pip3 uninstall naruno web3_app -y
 ```
 
 <h1 align="center"> Konu dışı </h1>
@@ -138,4 +137,3 @@ aps --password <ruesSifre> --port 4569 ping c923c646f2d73fcb8f626afacb1a0ade8d98
 > Naruno zaten hiç alan kaplamadığı için gittiği kadar çalıştırırım node'u.
 
 > Topluluk kanalları: `Genellikle burada çok aktifim`, [Duyuru](https://t.me/RuesAnnouncement) - [Sohbet](https://t.me/RuesChat) - [Naruno Discord](https://discord.gg/YR2DYn72)
-
