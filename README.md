@@ -49,10 +49,6 @@ pip3 install naruno
 narunocli --createwallet <ruesSifre>
 
 # Incentive almak için wallet 1 cüzdana geçmek gerekli
-
-https://github.com/ruesandora/Naruno/assets/101149671/89c61d10-c326-43c9-a168-35636ba4d95b
-
-
 narunocli --wallet 1
 
 ## Çıkan 2 cüzdanlı çıktıyı kaydedin.
