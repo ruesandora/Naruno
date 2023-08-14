@@ -83,7 +83,7 @@ narunocli -bon
 #  Bu komutta, <ruesSifre> yazan yere daha önce belirlediğiniz şifreyi yazın.
 #  1984 portunu başka nodeda kullanıyorsanız kendiniz belirleyebilirsiniz.
 
-web3 --port 1984 --host "localhost" set_pass <ruesSifre>
+web3 set_pass <ruesSifre>
 
 # Bu komutta <BirKullanıcıAdı> yazan yere boşluk bırakmadan kendi kullanıcı adınızı yazın
 web3 --port 1984 --host "localhost" username <BirKullanıcıAdı>
