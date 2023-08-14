@@ -70,6 +70,9 @@ narunocli --printwallet
 ## indirelim
 pip3 install web3_app
 
+## Naruno'yu güncelleyelim
+pip3 install naruno --upgrade
+
 # Baklava modunu açmamız gerekli aşağıdaki komudu girin
 narunocli -bon
 
