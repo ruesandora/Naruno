@@ -53,6 +53,9 @@ narunocli --wallet 1
 
 ## Çıkan 2 cüzdanlı çıktıyı kaydedin.
 narunocli --printwallet
+
+# Baklava modunu açmamız gerekli aşağıdaki komudu girin
+narunocli -bon
 ```
 
 
@@ -73,8 +76,7 @@ pip3 install web3_app
 ## Naruno'yu güncelleyelim
 pip3 install naruno --upgrade
 
-# Baklava modunu açmamız gerekli aşağıdaki komudu girin
-narunocli -bon
+
 
 # Not: Bazen komutlar çalışmaz veya hata görürseniz minimun 5 dakika bekleyiniz lütfen sonra deyeniz
 # Not- 2: Bunu sync olmak gibi düşünebilirisniz.
